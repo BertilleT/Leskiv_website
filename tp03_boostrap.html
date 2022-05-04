@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<!-- <> -->
+<html>
+    <head>
+        <title>Dieu choisit nos voisins</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="tp03_css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> 
+    <div class='container'>
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#presentation">Quelques mots sur mon EP</a></li>
+                <li class="active"><a href="#links">Au coeur du projet : le son</a></li>
+                <li class="active"><a href="#acteurs">L'équipe</a></li>
+                <li class="active"><a href="#achat">Comment nous soutenir</a></li>
+            </ul>
+            </div>
+        </nav>        
+        
+        <div class="panel panel-success">
+            <div class="panel-heading">Ceci est le titre du panel avec la classe contextuelle success</div>
+            <div class="panel-body">Ceci est le corps du panel-success. Mais qu'est-ce qu'un panel ? C'est une boîte dont la bordure est visible. 
+                Cette boîte peut être sectionnée en 2 parties : le titre et le corps, comme c'est d'ailleurs le cas ici. 
+                Saches que le fond du titre de cette boîte peut être coloré ! Cela dépend de la classe contextuelle que tu choisis. Pour en savoir plus, cf docu de bt,v3. 
+                Ci-dessous tu peux retrouver un jumbotron : c'est un bloc en haut de la page, plus large que le reste et qui sert à attirer l'attention sur un élement particulier.</div>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Programme ISI de l'UTT</h1>
+            <p>Le programme ISI de l'UTT dispose actuellement de trois filières : IPL, VDC et ATN ...</p>
+        </div>
+                 
+        <div class="panel panel-primary">
+            <div class="panel-heading">Un système de pagination ? </div>
+            <div class="panel-body">En voilà un ! (cf ci-dessous)</div>
+        </div>
+        
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li><a href="#">TCBR</a></li>
+            <li><a href="#">FIL</a></li>
+            <li><a href="#">Capsules</a></li>
+            <li><a href="#">TPE</a></li>
+            <li><a href="#">Stages</a></li>
+            <li><a href="#">SE</a></li>
+          </ul>
+        </nav>        
+        
+        <div class="panel panel-primary">
+            <div class="panel-heading">Boutons, badges ... quésaco ? </div>
+            <div class="panel-body">Regardes en-dessous pour te faire une idée</div>
+        </div>
+        
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">ATN <span class="badge">1</span></button>
+            <button type="button" class="btn btn-danger">IPL <span class="badge">2</span></button>        
+            <button type="button" class="btn btn-warning">VDC <span class="badge">3</span></button>        
+        </div>      
+        
+        <h3>Tableau 1 : 1 ligne</h3> 
+        
+        <div class="container-fluid facultatif">
+            <div class="row">
+                <div class="col-md-4">colonne 1, 4/12</div>
+                <div class="col-md-4">col 2, 4/12</div>
+                <div class="col-md-4">col 3, 4/12</div>
+            </div>
+        </div>
+        
+        <h3>Tableau 2 : 2 lignes</h3> 
+        <div class="container-fluid facultatif">
+            <div class="row">
+                <div class="col-md-4">ligne1, col 1, 4/12</div>
+                <div class="col-md-8">ligne1, col 2, 8/12</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">l2, col 1, 2/12</div>
+                <div class="col-md-4">l2, col 2, 4/12</div>
+                <div class="col-md-6">l2, col 3, 8/12</div>
+            </div>        
+        </div>        
+
+        <h3>Tableau 3 : 3 lignes</h3> 
+        <div class="container-fluid facultatif">
+            <div class="row">
+                <div class="col-md-offset-6 col-md-6">Boite 1(ligne1, col 2, 6/12)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">Boite 2(l2, col 1, 4/12)</div>
+                <div class="col-md-4">Bimage(l2, col 2, 4/12)</div>
+                <div class="col-md-4">Boite 3(l2, col 3, 4/12)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">Boite 4(Boite 5) (l1, col 1, 12/12)</div>
+            </div>            
+        </div>
+        
+        <h3>Présentation des filières</h3> 
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/ATN.png" alt="ATN" height="80">
+                    <div class="caption">
+                      <h3>ATN</h3>
+                      <p>Accompagnement de la Transition Numérique (ATN) : permet de comprendre comment, grâce au SI, 
+                          on peut ajouter de la valeur à la plupart des activités de l’organisation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/IPL.png" alt="IPL" height="80">
+                    <div class="caption">
+                      <h3>IPL</h3>
+                      <p>Innovation par le logiciel (IPL) : forme à la conception et à la mise en œuvre de projets logiciels en équipe
+                          depuis la preuve de concept jusqu’à l’industrialisation de la production logicielle.</p>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/VDC.jpg" alt="VDC" height="80">
+                    <div class="caption">
+                      <h3>VDC</h3>
+                      <p>Valorisation des données et des connaissances (VDC) : développe les compétences qui permettent de passer
+                          de la donnée brute à de l’information actionnable tout en développant un regard critique sur les techniques utilisées.</p>
+                    </div>
+                </div>
+            </div>                  
+                  
+          </div>
+        </div>
+          
+        
+        
+        
+        
+<h2>Modules pour chaque filière</h2>
+    <table class="table table-bordered  table-striped">
+        <caption>Modules pour chaque filière</caption>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ATN</th>
+                <th>IPL</th>
+                <th>VDC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>CS</th>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF09</li>
+                        <li class="list-group-item">IF22</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF05</li>
+                        <li class="list-group-item">IF10</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF17</li>
+                        <li class="list-group-item">IF29</li>
+                    </ul>
+                </td>
+            </tr>    
+            <tr>
+                <th>TM</th>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF20</li>
+                        <li class="list-group-item">IF34</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF26</li>
+                        <li class="list-group-item">IF31</li>
+                        <li class="list-group-item">LO10</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">IF28</li>
+                        <li class="list-group-item">IF34</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+                
+    <form>
+      <div class="form-group">
+        <label for="Nom">Nom ?</label>
+        <input type="text" class="form-control" id="Nom" placeholder="Donnez votre nom">
+      </div>
+      <div class="form-group">
+        <label for="Prenom">Prénom ?</label>
+        <input type="text" class="form-control" id="Prenom" placeholder="Donnez votre prénom">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email ?</label>
+        <input type="email" class="form-control" id="Email" aria-describedby="Email" placeholder="Donnez votre email">
+      </div>
+      <div class="form-group">
+        <label for="Naissance">Date de naissance ?</label>
+        <input type="date" class="form-control" id="Naissance" aria-describedby="Naissance">
+      </div>
+      <div class="form-group">
+        <label class="radio-inline"><input type="radio" name="optradio">féminim</label>
+        <label class="radio-inline"><input type="radio" name="optradio">masculin</label>
+      </div>
+      <div class="form-group">
+        <label for="Origine">Origine des étudiants:</label>
+        <select class="form-control" id="Origine">
+            <option>TC de l'UTT</option>
+            <option>DUT Info</option>
+            <option>DUT GE21</option>
+            <option>DUT STID</option>
+            <option>DUT autre</option>
+            <option>Prépa scientifique</option>
+            <option>Prépa B/L</option>
+        </select>
+
+      </div>
+      <label>Validations ?</label>
+      <div class="checkbox">
+      <label><input type="checkbox" value="ST07">ST07</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="ST09">ST09</label>
+      </div>
+      <div class="checkbox disabled">
+        <label><input type="checkbox" value="ST10" disabled>ST10</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="SE">SE</label>
+      </div>
+
+      <div>
+      <label for="sel2">Modules ?</label>
+          <select multiple class="form-control" id="sel2">
+            <optgroup label="CS">
+            <option>GL02</option>
+            <option>NF16</option>
+            <option>LO12</option>
+            <option>IF02</option>
+            <optgroup label="TM">
+            <option>IF15</option>
+            <option>LO07</option>
+            <option>NF19</option>
+          </select>
+      </div>
+
+      <div class="form-group">
+      <label for="info">Informations complémentaires</label>
+      <textarea class="form-control" rows="5" id="info"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit form</button>
+    </form>        
+    
+    </div>
+    </body>    
+</html>

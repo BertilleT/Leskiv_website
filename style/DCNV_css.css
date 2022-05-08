@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+  
+body {
+    background-color: rgb(126, 145, 131);
+}
+
+.container { 
+    padding-top: 80px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align:center;
+    margin-top: 80px;
+
+}
+
+#abc {
+  text-align: center;
+  color:rgb(255, 251, 238);
+  font-size: 2em
+}
+
+.link {
+   color:rgb(61, 87, 68);
+   text-decoration: none; 
+   background-color: none;
+}
+
+a { color: inherit; } 

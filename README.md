@@ -1,2 +1,102 @@
-# Leskiv_website
-This website is dedicated to present the new album "Dieu choisit nos voisins" made by the French rap singer : Leskiv in automn 2022. 
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Dieu choisit nos voisins</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="style/DCNV_css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body> 
+        <div class='container' id = 'video_container'>
+        <iframe id="myVideo" height="315" src="https://www.youtube.com/embed/y8fqpi-Qe0k?autoplay=1&mute=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#video_container">Immersion au coeur du projet</a></li>
+                <li class="active"><a href="#historique">L'historique</a></li>
+                <li class="active"><a href="#equipe">L'équipe</a></li>
+                <li class="active"><a href="#boutique">La boutique</a></li>
+            </ul>
+            </div>
+        </nav> 
+
+        <script>
+            // Get the video
+            var video = document.getElementById("myVideo");
+            
+            // Get the button
+            var btn = document.getElementById("myBtn");
+            
+            // Pause and play the video, and change the button text
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+        </script>
+
+
+        <div class='container'> Bienvenue sur le site de mon nouveau projet musical. Si vous ne me connaissez pas encore, je suis Leskiv et je vous invite
+                aujourd'hui à découvrir mon univers dans ce site en visionnant la vidéo au-dessus. Oubliez pas d'activer le son ! 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="Images/lbc_1960.png">
+                                <img src="Images/lbc_1960.png" alt="lbc_1960" height="80">
+                            </a>
+                                <div class="caption">
+                                <h3><a href="#origines">Aux origines</a></h3>
+                                <p>Nous sommes en 1999.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="Images/lbc_2022.png">
+                                <img src="Images/lbc_2022.png" alt="lbc_2022" height="80">
+                            </a>
+                            <div class="caption">
+                                <h3><a href="#chemin">Le chemin</a></h3>
+                                <p>De l'excès à la sobriété</p>
+                            </div>
+                        </div>            
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="Images/blanc.jpg" alt="blank" height="80">
+                            <div class="caption">
+                                <h3><a href="#projet">Où je vais</a></h3>
+                                <p>hey</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class = "container" id='historique'>
+            <h1>Historique</h1>
+            titre_blablabla
+        </div> 
+
+        <div class = "container" id='equipe'>
+            <h1>L'équipe ! </h1>
+            photo de groupe ? Photos des membres de yuga et leur prénom ?
+        </div>   
+
+        <div class="container" id='boutique'>
+            <h1>La boutique</h1>
+            teeshirt et cd dispo(ajouter photos), contactez moi à cette adresse mail si vous en voulez en me communiquant combie vous en voulez : mail_de_marius@gmail.com
+        </div>
+        <div class="footer">
+            Website made in July 2022 and hosted by OVH. Source code available on Github : https://github.com/BertilleT/Leskiv_website.
+        </div>
+    </body>    
+</html>
